@@ -1,11 +1,11 @@
-import Header from "./Components/Portfolio/Header"
-import Hero from "./Components/Portfolio/Hero"
-import Mission from "./Components/Portfolio/Mission"
-import Features from "./Components/Portfolio/Features"
-import Timeline from "./Components/Portfolio/Timeline"
-import Portfolio from "./Components/Portfolio/Portfolio"
-import Contact from "./Components/Portfolio/Contact"
-import Footer from "./Components/Portfolio/Footer"
+import Header from "./Components/portfolio/Header"
+import Hero from "./Components/portfolio/Hero"
+import Mission from "./Components/portfolio/Mission"
+import Features from "./Components/portfolio/Features"
+import Timeline from "./Components/portfolio/Timeline"
+import Portfolio from "./Components/portfolio/Portfolio"
+import Contact from "./Components/portfolio/Contact"
+import Footer from "./Components/portfolio/Footer"
 
 export default function App() {
   return (
