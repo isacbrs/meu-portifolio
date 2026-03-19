@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Mail } from 'lucide-react';
+import java from './java.png'; // ou o caminho onde ela estiver
 
 export default function Hero() {
   return (
