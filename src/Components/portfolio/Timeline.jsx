@@ -25,7 +25,7 @@ const timelineData = [
   {
     id: 't2',
     year: '2026',
-    title: 'Especialista Python',
+    title: 'Python',
     description: 'Certificação Profissional pela Hashtag Treinamentos',
     icon: BookOpen,
     branches: [
