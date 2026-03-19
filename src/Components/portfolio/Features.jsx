@@ -1,6 +1,10 @@
 import React from 'react';
 import { Code2, Brain, Terminal } from 'lucide-react';
 
+// IMPORTANDO AS IMAGENS (Garanta que os arquivos estão na mesma pasta que este código)
+import imgIA from './iafoto.png';
+import imgAutomacao from './automacao.png';
+
 const features = [
   {
     icon: Code2,
@@ -12,15 +16,13 @@ const features = [
     icon: Brain,
     title: 'Inteligência Artificial',
     description: 'Desenvolvimento de modelos de Machine Learning e árvores de decisão para automação de tarefas e classificação de dados.',
-    // Imagem de análise de dados/IA que não quebra
-    image: 'iafoto.png'
+    image: imgIA // Usando a variável importada
   },
   {
     icon: Terminal,
     title: 'Automação de Processos',
     description: 'Otimização de fluxos de trabalho através de scripts Python, transformando tarefas manuais em execuções automáticas e eficientes.',
-    // Link de automação/código super estável
-    image: 'automacao.png'
+    image: imgAutomacao // Usando a variável importada
   }
 ];
 
