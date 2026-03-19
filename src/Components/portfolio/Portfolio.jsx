@@ -1,27 +1,29 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 
+// IMPORTANDO AS IMAGENS DA RAIZ
+import imgWeather from '../../../WeatherAPI.png';
+import imgIA from '../../../IAcredito.png';
+
 const projects = [
   {
     id: 1,
     title: 'Weather API',
     category: 'API',
     description: 'Uma API REST em python que consome dados de uma API meteorológica externa e retorna dados precisos e diversos de uma cidade ou região específica',
-    image: '/WeatherAPI.png', // Exemplo: coloque sua imagem na pasta 'public'
+    image: imgWeather, // Usando a imagem importada
     tags: ['Back-end','Python' , 'FastAPI'],
     github: 'https://github.com/isacbrs/Weather-API'
-    // Tirei o 'demo' daqui, então o botão não vai aparecer para este projeto
   },
   {
     id: 2,
-    title: 'IA-  Credit-Score-Classifier',
+    title: 'IA- Credit-Score-Classifier',
     category: 'IA',
     description: 'Ferramenta de Machine Learning que automatiza a análise de risco de crédito. Desenvolvido com o método Random Forest e processamento de dados para decisões financeiras rápidas e precisas.', 
-    image: '/IAcredito.png',
+    image: imgIA, // Usando a imagem importada
     tags: ['Machine Learning', 'Python', 'Pandas', 'Scikit-Learn'],
     github: 'https://github.com/isacbrs/AI-Credit-Score-Classifier'
   },
-  // ... repita o mesmo padrão para os outros projetos
 ];
 
 export default function Portfolio() {
@@ -53,7 +55,6 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/80 via-[#000000]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4 right-4 flex gap-3">
                     
-                    {/* O PULO DO GATO: Só renderiza se project.demo existir */}
                     {project.demo && (
                       <a
                         href={project.demo}
