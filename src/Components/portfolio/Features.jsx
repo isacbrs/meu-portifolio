@@ -1,9 +1,14 @@
 import React from 'react';
 import { Code2, Brain, Terminal } from 'lucide-react';
 
-// IMPORTANDO AS IMAGENS (Garanta que os arquivos estão na mesma pasta que este código)
-import imgIA from './iafoto.png';
-import imgAutomacao from './automacao.png';
+// IMPORTANDO AS IMAGENS DA RAIZ
+// Como este arquivo está em: src/Components/portfolio/Features.jsx
+// Precisamos de:
+// ../ (sai de portfolio)
+// ../ (sai de Components)
+// ../ (sai de src e chega na raiz)
+import imgIA from '../../../iafoto.png';
+import imgAutomacao from '../../../automacao.png';
 
 const features = [
   {
@@ -16,13 +21,13 @@ const features = [
     icon: Brain,
     title: 'Inteligência Artificial',
     description: 'Desenvolvimento de modelos de Machine Learning e árvores de decisão para automação de tarefas e classificação de dados.',
-    image: imgIA // Usando a variável importada
+    image: imgIA 
   },
   {
     icon: Terminal,
     title: 'Automação de Processos',
     description: 'Otimização de fluxos de trabalho através de scripts Python, transformando tarefas manuais em execuções automáticas e eficientes.',
-    image: imgAutomacao // Usando a variável importada
+    image: imgAutomacao 
   }
 ];
 
