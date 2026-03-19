@@ -113,7 +113,7 @@ export default function Hero() {
                 }}
               >
                 <img
-                  src="imgJava"
+                  src={imgJava} 
                   alt="Java"
                   className="w-full h-full object-cover rounded-xl shadow-lg"
                 />
