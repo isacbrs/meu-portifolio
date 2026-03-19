@@ -67,6 +67,7 @@ export default function Hero() {
               </div>
 
               {/* Mini Image 1 */}
+              {/* 
               <div 
                 className="absolute animate-float animate-slide-fade delay-4"
                 style={{ 
@@ -82,6 +83,7 @@ export default function Hero() {
                   className="w-full h-full object-cover rounded-xl shadow-lg"
                 />
               </div>
+              */}
 
               {/* Mini Image 2 */}
               <div 
