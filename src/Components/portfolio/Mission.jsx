@@ -1,7 +1,10 @@
 import React from 'react';
-import { FileText, Download } from 'lucide-react'; // Importando ícones para o botão
+import { FileText, Download } from 'lucide-react';
 
 export default function Mission() {
+  // Caminho direto para o arquivo que está na pasta public
+  const pdfUrl = "/meucurriculo.pdf";
+
   return (
     <section id="mission" className="py-20 md:py-32 bg-[#e8e8e8]">
       <div className="max-w-7xl mx-auto px-6">
@@ -26,9 +29,11 @@ export default function Mission() {
             {/* --- BOTÃO DO CURRÍCULO --- */}
             <div className="pt-4">
               <a 
-                href="../../../meucurriculo.pdf" // Caminho do arquivo na sua pasta public
+                href={pdfUrl}
                 target="_blank" 
                 rel="noopener noreferrer"
+                // O atributo download é opcional, remova se quiser apenas abrir na aba
+                download="Curriculo_Isac_Barros.pdf" 
                 className="inline-flex items-center gap-2 px-6 py-3 bg-[#5c5e48] text-white rounded-xl font-semibold shadow-lg hover:bg-[#30321e] hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
               >
                 <FileText size={20} />
