@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from '../../../logo.png';
+// Certifique-se de que o caminho abaixo aponta para onde você moveu a imagem
+import logo from '../../../logo.png'; 
 
 export default function Header({ scrollY }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,18 +15,6 @@ export default function Header({ scrollY }) {
     { label: 'Contato', href: '#contact' }
   ];
 
-function Header() {
-  return (
-    <nav>
-      <img src={logo} alt="Logo" />
-    </nav>
-  );
-}
-
-export default Header;
-  
-
-  // Função para scroll suave
   const handleSmoothScroll = (e, href) => {
     e.preventDefault();
     const id = href.replace('#', '');
@@ -48,8 +37,13 @@ export default Header;
       style={{ height: '64px' }}
     >
       <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
-        <a href="#home" className="text-xl md:text-2xl font-bold text-[#000000] hover:text-[#5c5e48] transition-colors">
-          Isac Barros
+        {/* LOGO AQUI */}
+        <a href="#home" onClick={(e) => handleSmoothScroll(e, '#home')} className="flex items-center">
+          <img 
+            src={logo} 
+            alt="Logo Isac Barros" 
+            className="h-10 w-auto object-contain" // Ajuste a altura (h-10) como preferir
+          />
         </a>
 
         {/* Desktop Menu */}
