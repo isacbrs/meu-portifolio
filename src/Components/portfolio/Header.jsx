@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from '.../../../logo.png';
+import logo from '../../../logo.png';
 
 export default function Header({ scrollY }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,8 +14,6 @@ export default function Header({ scrollY }) {
     { label: 'Contato', href: '#contact' }
   ];
 
-import logo from "../../assets/logo.png";
-
 function Header() {
   return (
     <nav>
@@ -25,6 +23,7 @@ function Header() {
 }
 
 export default Header;
+  
 
   // Função para scroll suave
   const handleSmoothScroll = (e, href) => {
