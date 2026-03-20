@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from "./assets/logo.png";
-
+import logo from '.../../../logo.png';
 
 export default function Header({ scrollY }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
