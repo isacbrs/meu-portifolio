@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import logo from "./assets/logo.png";
+
 
 export default function Header({ scrollY }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,6 +14,14 @@ export default function Header({ scrollY }) {
     { label: 'Projetos', href: '#portfolio' },
     { label: 'Contato', href: '#contact' }
   ];
+
+ function Navbar() {
+  return (
+    <nav>
+      <img src={logo} alt="Logo" />
+    </nav>
+  );
+}
 
   // Função para scroll suave
   const handleSmoothScroll = (e, href) => {
