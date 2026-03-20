@@ -47,7 +47,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-white/70">
               <li>isac.brs.contact@gmail.com</li>
-              <li>+55 77 991916634</li>
+              <li>+55 77 99176-4296/li>
               <li>Brasília, Brasil 📍</li>
             </ul>
           </div>
