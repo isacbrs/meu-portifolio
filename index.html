@@ -1,13 +1,17 @@
-<head>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Isac Barros</title>
-    <link rel="icon" href="/logo.png" />
+    <link rel="icon" href="/logo.png" />  
 
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CDN config (DEFINIR antes do script do CDN) -->
     <script>
+      window.tailwind = window.tailwind || {};
       tailwind.config = {
         theme: {
           extend: {
@@ -19,10 +23,19 @@
               darkSecondary: '#30321e'
             },
             fontFamily: {
-              sans: ['Poppins', 'sans-serif']
+              sans: ['Poppins', 'ui-sans-serif', 'system-ui']
             }
           }
         }
       }
     </script>
+
+    <!-- Tailwind CDN (gera utilitários no browser) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
   </head>
+  <body class="bg-primaryBg font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
