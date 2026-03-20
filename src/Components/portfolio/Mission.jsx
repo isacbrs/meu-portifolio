@@ -26,7 +26,7 @@ export default function Mission() {
             {/* --- BOTÃO DO CURRÍCULO --- */}
             <div className="pt-4">
               <a 
-                href="/meucurriculo.pdf" // Caminho do arquivo na sua pasta public
+                href="../../../meucurriculo.pdf" // Caminho do arquivo na sua pasta public
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-[#5c5e48] text-white rounded-xl font-semibold shadow-lg hover:bg-[#30321e] hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
