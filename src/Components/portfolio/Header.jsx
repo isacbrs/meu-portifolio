@@ -14,13 +14,17 @@ export default function Header({ scrollY }) {
     { label: 'Contato', href: '#contact' }
   ];
 
- function Navbar() {
+import logo from "../../assets/logo.png";
+
+function Header() {
   return (
     <nav>
-      <imgage: logo , alt="Logo" />
+      <img src={logo} alt="Logo" />
     </nav>
   );
 }
+
+export default Header;
 
   // Função para scroll suave
   const handleSmoothScroll = (e, href) => {
