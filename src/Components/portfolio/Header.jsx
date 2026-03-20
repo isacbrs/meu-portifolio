@@ -17,7 +17,7 @@ export default function Header({ scrollY }) {
  function Navbar() {
   return (
     <nav>
-      <img src={logo} alt="Logo" />
+      <imgage: logo , alt="Logo" />
     </nav>
   );
 }
