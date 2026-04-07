@@ -67,7 +67,18 @@ const timelineData = [
       { id: 'b8', title: 'Engenharia de Dados', description: 'Aplicação de boas práticas de software e limpeza de dados reais.' },
       { id: 'b9', title: 'Modelagem', description: 'Implementação de algoritmos de classificação para tomada de decisão financeira.' }
     ]
-  }
+  },
+    {
+    id: 't6',
+    year: '2026',
+    title: 'Cloud Fundamentals and Solution Architect',
+    description: '"Especialização em Arquitetura Multicloud (AWS, Azure e GCP) com foco em alta disponibilidade, escalabilidade e governança de infraestrutura."',
+    icon: BookOpen,
+    branches: [
+     { id: 'fiap_c1', title: 'Cloud Computing Fundamentals', description: 'Fundamentação sólida em virtualização e modelos de nuvem pública, privada e híbrida para suporte a negócios digitais.' },
+     { id: 'fiap_c2', title: 'Solution Architect Mastery', description: 'Desenho de arquiteturas resilientes e otimização de custos através da administração avançada de serviços de nuvem.' },
+     { id: 'fiap_c3', title: 'Containerization & Orchestration', description: 'Virtualização de aplicações com Docker e gerenciamento de clusters com Kubernetes para ambientes de produção escaláveis.' }    ]
+  },
 ];
 
 export default function Timeline() {
