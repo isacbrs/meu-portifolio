@@ -72,7 +72,7 @@ const timelineData = [
     id: 't6',
     year: '2026',
     title: 'Cloud Fundamentals and Solution Architect',
-    description: 'Aprendizado em Arquitetura Multicloud (AWS, Azure e GCP) com foco em alta disponibilidade, escalabilidade e governança de infraestrutura.',
+    description: 'Aprendizado em Arquitetura Multicloud (AWS, Azure e GCP).',
     icon: BookOpen,
     branches: [
      { id: 'fiap_c1', title: 'Cloud Computing Fundamentals', description: 'Fundamentação em virtualização e modelos de nuvem pública, privada e híbrida para suporte a negócios digitais.' },
