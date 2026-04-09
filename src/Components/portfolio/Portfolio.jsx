@@ -4,6 +4,7 @@ import { ExternalLink, Github } from 'lucide-react';
 // IMPORTANDO AS IMAGENS DA RAIZ
 import imgWeather from '../../../WeatherAPI.png';
 import imgIA from '../../../IAcredito.png';
+import imgJava from '../../../Product-Registration.png'
 
 const projects = [
   {
