@@ -24,6 +24,15 @@ const projects = [
     tags: ['Machine Learning', 'Python', 'Pandas', 'Scikit-Learn'],
     github: 'https://github.com/isacbrs/AI-Credit-Score-Classifier'
   },
+{
+  id: 3,
+  title: 'Product Registration System',
+  category: 'Desktop App',
+  description: 'Aplicação Java desktop para cadastro de produtos com operações CRUD, organização em camadas (model, repository, view) e persistência em memória.',
+  image: imgJava, 
+  tags: ['Java', 'Swing', 'CRUD'],
+  github: 'https://github.com/isacbrs/Product-Registration-System'
+}
 ];
 
 export default function Portfolio() {
