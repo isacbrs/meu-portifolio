@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FileText, Download } from 'lucide-react'; // Importando ícones para o botão
 
-import curriculo from '../../../meucurriculo.pdf';
+import curriculo from '../../../Currículo - Isac Barros.pdf';
 
 export default function Mission() {
 
