@@ -34,7 +34,7 @@ export default function Mission() {
 
             <p className="text-lg text-[#30321e]/80">
 
-              Sou graduando em Engenharia de Software pela Universidade Católica de Brasília como bolsista PROUNI integral, com foco sólido no desenvolvimento Back-end utilizando Python e Java. 
+              Estou fazendo uma graduação em Engenharia de Software pela Universidade Católica de Brasília(UCB) como bolsista prouni integral, com foco sólido no desenvolvimento Back-end utilizando Python e Java. 
 
             </p>
 
@@ -42,7 +42,7 @@ export default function Mission() {
 
             <p className="text-lg text-[#30321e]/70">
 
-              Minha base técnica foi construída através de projetos práticos e certificações intensivas, como Java Development, aprendendo e melhorando técnicas de escalabilidade de sistemas e automação. Busco constantemente aplicar as melhores práticas de engenharia para construir soluções robustas e eficientes.
+              Minha base técnica foi construída através de projetos práticos e certificações intensivas, como CS50 em Harvard, aprendendo e melhorando técnicas de escalabilidade de sistemas e automação. Busco constantemente aplicar as melhores práticas de engenharia para construir soluções robustas e eficientes.
 
             </p>
 
