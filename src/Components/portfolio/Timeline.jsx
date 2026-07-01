@@ -48,7 +48,7 @@ const timelineData = [
   },
   {
     id: 't4',
-    year: '2026',
+    year: '2026-2030(previsão)',
     title: 'Engenharia de Software',
     description: 'Graduação na Universidade Católica de Brasília (UCB)',
     icon: GraduationCap,
@@ -71,8 +71,8 @@ const timelineData = [
     {
     id: 't6',
     year: '2026',
-    title: 'Cloud Fundamentals and Solution Architect',
-    description: 'Aprendizado em Arquitetura Multicloud (AWS, Azure e GCP).',
+    title: 'CS50 em Harvard',
+    description: 'Aprendendo toda a base sólida da Ciência da computação em uma das melhores universidades do mundo, Harvard',
     icon: BookOpen,
     branches: [
      { id: 'fiap_c1', title: 'Cloud Computing Fundamentals', description: 'Fundamentação em virtualização e modelos de nuvem pública, privada e híbrida para suporte a negócios digitais.' },
