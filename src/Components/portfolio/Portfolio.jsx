@@ -33,7 +33,16 @@ const projects = [
   image: imgJava, 
   tags: ['Java', 'Swing', 'CRUD'],
   github: 'https://github.com/isacbrs/Product-Registration-System'
-}
+},
+{
+  id: 4,
+  title: 'Já Pagou?',
+  category: 'Desktop App',
+  description: 'Aplicação web progressiva para gerenciamento e notificação de contas residenciais, com captura de dados por escaneamento de câmera (OCR) com IA',
+  image: imgJava, 
+  tags: ['Full-Stack', 'SQL', 'CRUD'],
+  github: 'https://github.com/isacbrs/ja-pagou'
+},
 ];
 
 export default function Portfolio() {
