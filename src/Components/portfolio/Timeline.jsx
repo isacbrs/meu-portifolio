@@ -22,63 +22,85 @@ const timelineData = [
       { id: 'b2', title: 'Produtividade', description: 'Uso avançado do Pacote Office para gestão de dados e apresentações.' }
     ]
   },
+  [
   {
-    id: 't2',
+    id: 't1_ucb',
     year: '2026',
-    title: 'Python',
-    description: 'Certificação Profissional pela Hashtag Treinamentos',
-    icon: BookOpen,
-    branches: [
-      { id: 'b3', title: 'Data Science', description: 'Criação de modelos de Machine Learning para análise preditiva de cenários.' },
-      { id: 'b4', title: 'Automação', description: 'Desenvolvimento de scripts para otimização de tarefas e processos repetitivos.' },
-      { id: 'b5', title: 'Análise de Dados', description: 'Manipulação de grandes volumes de dados com foco em geração de insights.' }
-    ]
-  },
-  {
-    id: 't3',
-    year: '2026',
-    title: 'Java Developer',
-    description: 'Formação em Desenvolvimento Java pela FIAP',
-    icon: BookOpen,
-    branches: [
-      { id: 'b3_java', title: 'Arquitetura POO', description: 'Domínio básico de Programação Orientada a Objetos e padrões de projeto.' },
-      { id: 'b4_java', title: 'Java Core', description: 'Tratamento de exceções, coleções avançadas e performance de código.' },
-      { id: 'b5_java', title: 'Ecossistema Back-End', description: 'Construção de aplicações escaláveis focadas em segurança e persistência de dados.' }
-    ]
-  },
-  {
-    id: 't4',
-    year: '2026-2030(previsão)',
     title: 'Engenharia de Software',
     description: 'Graduação na Universidade Católica de Brasília (UCB)',
     icon: GraduationCap,
     branches: [
-      { id: 'b6', title: 'Mérito Acadêmico', description: 'Bolsista integral (100%) pelo PROUNI, selecionado via desempenho no ENEM.' },
-      { id: 'b7', title: 'Nível Atual', description: 'Estou no meu primeiro Semestre, aprendendo sobre UX, Front-End e Boas práticas profissionais.'}
+      { id: 'b_ucb1', title: 'Mérito Acadêmico', description: 'Bolsista integral pelo PROUNI, focado em excelência acadêmica.' },
+      { id: 'b_ucb2', title: 'Foco no Ecossistema Apple', description: 'Construindo a base técnica e de UX com o objetivo de integrar o Apple Developer Academy.'}
     ]
   },
   {
-    id: 't5',
+    id: 't2_cs50',
     year: '2026',
-    title: 'Projeto: IA de Crédito',
-    description: 'Desenvolvimento de Inteligência Artificial para Previsão de Crédito',
-    icon: Cpu,
-    branches: [
-      { id: 'b8', title: 'Engenharia de Dados', description: 'Aplicação de boas práticas de software e limpeza de dados reais.' },
-      { id: 'b9', title: 'Modelagem', description: 'Implementação de algoritmos de classificação para tomada de decisão financeira.' }
-    ]
-  },
-    {
-    id: 't6',
-    year: '2026',
-    title: 'CS50 em Harvard',
-    description: 'Aprendendo toda a base sólida da Ciência da computação em uma das melhores universidades do mundo, Harvard',
+    title: 'CS50x: Computer Science',
+    description: 'Fundação sólida em Ciência da Computação pela Harvard University',
     icon: BookOpen,
     branches: [
-     { id: 'fiap_c1', title: 'Cloud Computing Fundamentals', description: 'Fundamentação em virtualização e modelos de nuvem pública, privada e híbrida para suporte a negócios digitais.' },
-     { id: 'fiap_c2', title: 'Solution Architect Mastery', description: 'Desenho de arquiteturas resilientes e otimização de custos através da administração de serviços de nuvem.' },
-     { id: 'fiap_c3', title: 'Containerization & Orchestration', description: 'Virtualização de aplicações com Docker e gerenciamento de clusters com Kubernetes para ambientes de produção escaláveis.' }    ]
+      { id: 'b_cs50_1', title: 'Lógica e Algoritmos', description: 'Estruturas de dados complexas, algoritmos de busca, ordenação e Big O.' },
+      { id: 'b_cs50_2', title: 'Baixo Nível', description: 'Gerenciamento direto de memória, manipulação de ponteiros e performance em C.' }
+    ]
   },
+  {
+    id: 't3_cifra',
+    year: '2026',
+    title: 'Projeto: Criptografia Baseada em Cifra',
+    description: 'Aplicação prática do CS50x construída em C',
+    icon: Code,
+    branches: [
+      { id: 'b_cifra_1', title: 'Manipulação de Memória', description: 'Validação rigorosa de argumentos via CLI e aplicação de aritmética modular.' },
+      { id: 'b_cifra_2', title: 'Resolução de Problemas', description: 'Processamento eficiente garantindo a integridade dos dados contra vulnerabilidades.' }
+    ]
+  },
+  {
+    id: 't4_helsinki',
+    year: '2026',
+    title: 'Elements of AI',
+    description: 'Fundamentos de Inteligência Artificial pela University of Helsinki',
+    icon: Brain,
+    branches: [
+      { id: 'b_helsinki_1', title: 'Fundamentos Matemáticos', description: 'Redes neurais, machine learning e a matemática por trás dos modelos.' },
+      { id: 'b_helsinki_2', title: 'Visão Prática', description: 'Integração de Inteligência Artificial para a resolução de problemas reais.' }
+    ]
+  },
+  {
+    id: 't5_msa',
+    year: '2026',
+    title: 'Microsoft Student Ambassador',
+    description: 'Atuação na comunidade técnica (Trilha Influencer)',
+    icon: Users,
+    branches: [
+      { id: 'b_msa_1', title: 'Comunidade e Compartilhamento', description: 'Disseminação sobre ferramentas e ecossistemas para estudantes e profissionais.' },
+      { id: 'b_msa_2', title: 'Liderança Comportamental', description: 'Incentivo ao aprendizado contínuo, engajamento técnico e desenvolvimento de carreira.' }
+    ]
+  },
+  {
+    id: 't6_hackathon',
+    year: '2026',
+    title: 'Nebius x NVIDIA Global AI Hackathon',
+    description: 'Líder de Equipe e Desenvolvedor Back-End',
+    icon: Trophy,
+    branches: [
+      { id: 'b_hack_1', title: 'Inovação sob Pressão', description: 'Arquitetura de API integrando modelos de IA da NVIDIA aplicando Privacy by Design.' },
+      { id: 'b_hack_2', title: 'Liderança Colaborativa', description: 'Gerenciamento de equipe assíncrona com Kanban, superando barreiras de idiomas.' }
+    ]
+  },
+  {
+    id: 't7_calendario',
+    year: '2026',
+    title: 'Projeto: Gestão Acadêmica Colaborativa',
+    description: 'Plataforma desenhada para resolver a perda de prazos acadêmicos',
+    icon: Layout,
+    branches: [
+      { id: 'b_cal_1', title: 'Challenge Based Learning', description: 'Aplicação da metodologia CBL para identificar a raiz do problema e criar uma solução focada no usuário.' },
+      { id: 'b_cal_2', title: 'O Facilitador', description: 'Estruturação técnica da API e coordenação da equipe limitando o fluxo de tarefas (WIP) via Kanban.' }
+    ]
+  }
+]
 ];
 
 export default function Timeline() {
